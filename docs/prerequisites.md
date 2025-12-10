@@ -7,16 +7,16 @@ An X next to a prerequisite means that it has been learned.
     - Learn how to use SDL3_image
     - Know event handles
 2. Linear algebra
-    - Vectors
+    - Vectors X
     - Magnitude & normalization
     - Dot & cross product
     - Basic matrix understanding (2x2, 3x3 stuff)
     - 2D rotations
 3. Physics
-    - Basic motion (velocity, acceleration, displacement)
-    - Newton's laws
-    - Forces
-    - Collisions (momentum and impulse)
+    - Basic motion (velocity, acceleration, displacement)   X
+    - Newton's laws X
+    - Forces X
+    - Collisions (momentum and impulse) X
     - Gravity
     - Drag
 4. Collision
