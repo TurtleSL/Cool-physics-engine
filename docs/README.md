@@ -16,3 +16,5 @@ I will have all my ideas of design for the following components of the engine:
     - The collisions engine
 
 I have also provided a document on problems that I need to fix and handle later.
+
+The .mds are not professional in any sort of way. They're more of quick jots as I go.
