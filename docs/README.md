@@ -1,7 +1,13 @@
 # Cool-physics-engine
-My attempt at a game/physics engine. 
+My attempt at a 2D game/physics engine. 
+
+Compiled and built with CMake.
+
+Credit to SDL3 for graphics.
 
 List of prerequisites inside of this folder.
+
+Folder architecture will also be described in file-hierarchy.md.
 
 I will have all my ideas of design for the following components of the engine:
     - Physics handling
