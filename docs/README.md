@@ -3,7 +3,7 @@ My attempt at a 2D game/physics engine.
 
 Compiled and built with CMake.
 
-Credit to SDL3 for graphics.
+Credit to SDL3 for graphics(and possibly sound).
 
 List of prerequisites inside of this folder.
 
