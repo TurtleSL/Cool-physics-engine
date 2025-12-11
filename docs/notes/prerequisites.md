@@ -40,3 +40,5 @@ An X next to a prerequisite means that it has been learned.
     - Track internal states
     - Isolate systems
     - Maybe add a GUI to debug (imGUI)
+
+Sourced from ChatGPT.
