@@ -1,0 +1,6 @@
+# ninja log v7
+5	657	7872603794584453	CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj	959e038b1585ffc0
+44	279	7872718261240653	PhysicsEngine.exe	6ad25d73e8377357
+7	154	7872772121172533	CMakeFiles/PhysicsEngine.dir/src/engine/core/log.cpp.obj	ffe38bd817e2220
+13	711	7872772121201280	CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj	959e038b1585ffc0
+714	922	7872772128121396	PhysicsEngine.exe	f0277bc758a04566

@@ -23,8 +23,8 @@ CMAKE_AR:FILEPATH=C:/msys64/ucrt64/bin/ar.exe
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/c++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -52,8 +52,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/cc.exe
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=PhysicsEngine
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=
@@ -260,6 +260,33 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+PhsyicsEngine_BINARY_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine/build
+
+//Value Computed by CMake
+PhsyicsEngine_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+PhsyicsEngine_SOURCE_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine
+
+//Value Computed by CMake
+Phy_BINARY_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine/build
+
+//Value Computed by CMake
+Phy_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Phy_SOURCE_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine
+
+//Value Computed by CMake
+PhysicsEngine_BINARY_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine/build
+
+//Value Computed by CMake
+PhysicsEngine_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+PhysicsEngine_SOURCE_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine
+
+//Value Computed by CMake
 Project_BINARY_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine/build
 
 //Value Computed by CMake
@@ -267,6 +294,9 @@ Project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=C:/C++/PhysicsEngine/Cool-physics-engine
+
+//The directory containing a CMake configuration file for SDL3.
+SDL3_DIR:PATH=C:/msys64/ucrt64/lib/cmake/SDL3
 
 
 ########################

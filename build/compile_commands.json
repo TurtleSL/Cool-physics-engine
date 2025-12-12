@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/C++/PhysicsEngine/Cool-physics-engine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\PhysicsEngine.dir\\src\\engine\\core\\log.cpp.obj -c C:\\C++\\PhysicsEngine\\Cool-physics-engine\\src\\engine\\core\\log.cpp",
+  "file": "C:/C++/PhysicsEngine/Cool-physics-engine/src/engine/core/log.cpp",
+  "output": "C:/C++/PhysicsEngine/Cool-physics-engine/build/CMakeFiles/PhysicsEngine.dir/src/engine/core/log.cpp.obj"
+},
+{
+  "directory": "C:/C++/PhysicsEngine/Cool-physics-engine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\PhysicsEngine.dir\\src\\game\\main.cpp.obj -c C:\\C++\\PhysicsEngine\\Cool-physics-engine\\src\\game\\main.cpp",
+  "file": "C:/C++/PhysicsEngine/Cool-physics-engine/src/game/main.cpp",
+  "output": "C:/C++/PhysicsEngine/Cool-physics-engine/build/CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj"
+}
+]

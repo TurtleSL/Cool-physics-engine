@@ -1,2 +1,0 @@
-C:/C++/PhysicsEngine/Cool-physics-engine/out/build/msys64-ucrt64 normal project/CMakeFiles/edit_cache.dir
-C:/C++/PhysicsEngine/Cool-physics-engine/out/build/msys64-ucrt64 normal project/CMakeFiles/rebuild_cache.dir

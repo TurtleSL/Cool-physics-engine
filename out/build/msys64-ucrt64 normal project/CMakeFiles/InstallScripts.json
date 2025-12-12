@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/C++/PhysicsEngine/Cool-physics-engine/out/build/msys64-ucrt64 normal project/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
