@@ -36,3 +36,6 @@ Will include 6 levels:
         . Immediately terminate the program afterwards.
 Should take a dynamic amount of arguments (variadic templates)
 
+Assertations:
+A simple macro that aborts the program if the evaluated species returns true.
+    #ABORT(x) if(x) { __debug}
