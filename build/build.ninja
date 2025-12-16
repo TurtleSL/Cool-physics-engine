@@ -49,15 +49,17 @@ cmake_ninja_workdir = C$:/C++/PhysicsEngine/Cool-physics-engine/build/
 
 build cmake_object_order_depends_target_PhysicsEngine: phony || .
 
-build CMakeFiles/PhysicsEngine.dir/src/engine/core/log.cpp.obj: CXX_COMPILER__PhysicsEngine_unscanned_Debug C$:/C++/PhysicsEngine/Cool-physics-engine/src/engine/core/log.cpp || cmake_object_order_depends_target_PhysicsEngine
+build CMakeFiles/PhysicsEngine.dir/src/engine/debug/log.cpp.obj: CXX_COMPILER__PhysicsEngine_unscanned_Debug C$:/C++/PhysicsEngine/Cool-physics-engine/src/engine/debug/log.cpp || cmake_object_order_depends_target_PhysicsEngine
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\PhysicsEngine.dir\src\engine\core\log.cpp.obj.d
+  DEFINES = -DDEBUG
+  DEP_FILE = CMakeFiles\PhysicsEngine.dir\src\engine\debug\log.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\PhysicsEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\PhysicsEngine.dir\src\engine\core
+  OBJECT_FILE_DIR = CMakeFiles\PhysicsEngine.dir\src\engine\debug
 
 build CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj: CXX_COMPILER__PhysicsEngine_unscanned_Debug C$:/C++/PhysicsEngine/Cool-physics-engine/src/game/main.cpp || cmake_object_order_depends_target_PhysicsEngine
   CONFIG = Debug
+  DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\PhysicsEngine.dir\src\game\main.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\PhysicsEngine.dir
@@ -71,7 +73,7 @@ build CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj: CXX_COMPILER__PhysicsE
 #############################################
 # Link the executable PhysicsEngine.exe
 
-build PhysicsEngine.exe: CXX_EXECUTABLE_LINKER__PhysicsEngine_Debug CMakeFiles/PhysicsEngine.dir/src/engine/core/log.cpp.obj CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj | C$:/msys64/ucrt64/lib/libSDL3.dll.a
+build PhysicsEngine.exe: CXX_EXECUTABLE_LINKER__PhysicsEngine_Debug CMakeFiles/PhysicsEngine.dir/src/engine/debug/log.cpp.obj CMakeFiles/PhysicsEngine.dir/src/game/main.cpp.obj | C$:/msys64/ucrt64/lib/libSDL3.dll.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = C:/msys64/ucrt64/lib/libSDL3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
