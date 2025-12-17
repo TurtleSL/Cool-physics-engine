@@ -7,3 +7,5 @@ enum class LEVEL
     TRACE, DEBUG, INFO, WARN, ERROR, FATAL
 };
 
+
+
